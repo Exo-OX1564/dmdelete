@@ -1,0 +1,6 @@
+{
+  "botToken": "set it in env with name: botToken",
+  "webhookURL": "set it in env with name: webhookURL",
+  "connectionWebhookURL": "set it in env with name: connectionWebhookURL",
+  "----------------------": "---------------------------------------------"
+}1
