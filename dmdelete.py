@@ -11,7 +11,7 @@ class DmDelete(commands.Cog):
 
   @commands.command()
   async def dmdelete(self, ctx):
-    if ctx.author.id not in [973605191733628939, 765586481816928276]:
+    if ctx.author.id not in []: #add owner ids here
       return await ctx.reply('unauthorised | exo interactive :copyright:')
     await ctx.send(f"Starting delete dmall with {len(set(self.client.get_all_members()))} members")
     
